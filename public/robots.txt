@@ -1,0 +1,29 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /sitemap.xml
+
+Allow: https://lbweb.eu/L.Bielskus.pdf
+Allow: https://lbweb.eu/
+Allow: https://lbweb.eu/#/education
+Allow: https://lbweb.eu/#/experience
+Allow: https://lbweb.eu/#/contact
+Allow: https://lbweb.eu/#/*
+
+Sitemap: https://www.lbweb.eu/sitemap.xml
+
+
+User-Agent: Googlebot
+Allow: https://www.lbweb.eu/sitemap.xml
+
+Allow: .js
+
+Allow: .scss
+
+Allow: .css
+
+Allow: https://lbweb.eu/L.Bielskus.pdf
+Allow: https://lbweb.eu/
+Allow: https://lbweb.eu/#/education
+Allow: https://lbweb.eu/#/experience
+Allow: https://lbweb.eu/#/contact
+Allow: https://lbweb.eu/#/*

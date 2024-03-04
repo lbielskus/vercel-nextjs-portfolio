@@ -1,0 +1,22 @@
+.examples-page {
+  min-height: 200vh;
+  margin-top: 20px;
+}
+
+@media (max-width: 350px) {
+  .examples-page {
+    height: 450vh;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 880px) {
+  .examples-page {
+    min-height: 550vh;
+  }
+
+  @media (orientation: landscape) {
+    .examples-page {
+      height: 950vh;
+    }
+  }
+}

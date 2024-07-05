@@ -8,7 +8,7 @@ const TopBanner = () => {
   const [showBanner, setShowBanner] = useState(true);
 
   const handleEmailButtonClick = () => {
-    window.location.href = 'mailto:info@lbweb.eu';
+    window.location.href = 'mailto:info@lbweb.lt';
   };
 
   const handleCloseButtonClick = () => {

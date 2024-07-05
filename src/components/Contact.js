@@ -15,7 +15,7 @@ const Contact = () => {
       </p>
       <div className={styles['contact-details']}>
         <p>
-          Email: <Link href='mailto:liudbiel@gmail.com'>info@lbweb.eu</Link>
+          Email: <Link href='mailto:info@lbweb.lt'>info@lbweb.lt</Link>
         </p>
       </div>
     </section>

@@ -2,7 +2,7 @@ const { SitemapStream, streamToPromise } = require('sitemap');
 
 async function generateSitemap() {
   const smStream = new SitemapStream({
-    hostname: 'https://lbweb.eu', // Replace with your website's hostname
+    hostname: 'https://lbweb.lt', // Replace with your website's hostname
   });
 
   // Add URLs to your sitemap

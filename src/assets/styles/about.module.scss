@@ -1,0 +1,106 @@
+$primary-color: #050a30;
+$secondary-color: #d4af37;
+$tertiary-color: #ffffff;
+
+.about-me-comp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  color: $secondary-color;
+  margin-top: 50px;
+  overflow: hidden;
+}
+
+.about-me-text {
+  color: $secondary-color;
+  padding: 0 50px 0px 50px;
+  margin-top: 100px;
+  min-height: 300px;
+}
+
+.about-me-text h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.about-me-text p {
+  width: 600px;
+  color: $tertiary-color;
+  font-size: 0.9rem;
+}
+
+.logo-container {
+  background-color: $tertiary-color;
+  width: fit-content;
+  border: #d4af37 3px solid;
+  border-radius: 1rem;
+  margin-top: 100px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.logo {
+  width: 50px;
+  padding: 20px 20px 20px 20px;
+}
+
+@media (max-width: 350px) {
+  .logo-container {
+    border-radius: 3px;
+    margin-top: 0;
+  }
+
+  .logo {
+    padding: 5px 5px 0px 5px;
+    margin-left: 1px;
+    width: 20px;
+  }
+
+  .about-me-text h1,
+  .about-me-text p {
+    width: 290px;
+    font-size: 1.2rem;
+  }
+
+  .about-me-text p {
+    padding-bottom: 50px;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 880px) {
+  .logo-container {
+    width: 300px;
+    border-radius: 3px;
+    margin-top: 0;
+  }
+
+  .logo {
+    padding: 5px 5px 0px 5px;
+    margin-left: 1px;
+    width: 25px;
+  }
+
+  .about-me-text h1,
+  .about-me-text p {
+    width: 290px;
+    font-size: 1.2rem;
+  }
+
+  .about-me-text p {
+    padding-bottom: 50px;
+    font-size: 0.9rem;
+  }
+
+  .logo-container {
+    width: 330px;
+  }
+}
+
+@media (max-width: 1282px) {
+  .about-me-comp {
+    min-height: 500px;
+  }
+}

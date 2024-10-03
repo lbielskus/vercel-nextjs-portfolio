@@ -1,0 +1,31 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /sitemap.xml
+
+
+Allow: https://lbielskus.vercel.app/
+Allow: https://lbielskus.vercel.app/education
+Allow: https://lbielskus.vercel.app/experience
+Allow: https://lbielskus.vercel.app/contact
+Allow: https://lbielskus.vercel.app/L.Bielskus.pdf
+Allow: https://lbielskus.vercel.app/*
+
+Sitemap: https://lbielskus.vercel.app/sitemap.xml
+
+
+User-Agent: Googlebot
+Allow: https://lbielskus.vercel.app/sitemap.xml
+
+Allow: .js
+
+Allow: .scss
+
+Allow: .css
+
+
+Allow: https://lbielskus.vercel.app/
+Allow: https://lbielskus.vercel.app/education
+Allow: https://lbielskus.vercel.app/experience
+Allow: https://lbielskus.vercel.app/contact
+Allow: https://lbielskus.vercel.app/L.Bielskus.pdf
+Allow: https://lbielskus.vercel.app/*

@@ -1,0 +1,42 @@
+.cv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cv-title {
+  color: #d4af37;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 1.2rem;
+}
+
+.cv button {
+  width: 100px;
+  height: 50px;
+  margin-bottom: 100px;
+  background-image: linear-gradient(
+    to right,
+    #aa076b 0%,
+    #61045f 51%,
+    #aa076b 100%
+  );
+  border-radius: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.cv button:hover {
+  background-image: linear-gradient(
+    to right,
+    #a1648a 0%,
+    #6e436e 51%,
+    #a1648a 100%
+  );
+}
+
+.cv h3 {
+  color: #d4af37;
+}

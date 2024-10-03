@@ -1,0 +1,102 @@
+$contact-primary-color: #050a30;
+$contact-secondary-color: #d4af37;
+$contact-tertiary-color: #ffffff;
+
+.contactPageContainer {
+  color: $contact-tertiary-color;
+  padding: 50px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 72vh;
+}
+
+.contactPageContainer h2 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: $contact-secondary-color;
+}
+
+.contactPageContainer p {
+  font-size: 0.9rem;
+  margin-bottom: 30px;
+}
+
+.contactPageDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactPageDetails p {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+.contactPageDetails a {
+  color: $contact-secondary-color;
+  text-decoration: none;
+  font-weight: bold;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+@media (max-width: 350px) {
+  .contactPageContainer {
+    width: auto;
+    margin-top: 50px;
+  }
+
+  .contactPageContainer h2 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+
+  .contactPageContainer p {
+    font-size: 0.85rem;
+    margin-bottom: 30px;
+  }
+
+  .contactPageDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contactPageDetails p {
+    font-size: 0.85rem;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 880px) {
+  .contactPageContainer {
+    width: auto;
+    margin-top: 50px;
+    height: 61vh;
+  }
+
+  .contactPageContainer h2 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+  }
+
+  .contactPageContainer p {
+    font-size: 0.95rem;
+    margin-bottom: 30px;
+  }
+
+  .contactPageDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contactPageDetails p {
+    font-size: 0.85rem;
+  }
+}
